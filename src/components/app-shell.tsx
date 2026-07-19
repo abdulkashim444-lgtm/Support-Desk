@@ -21,11 +21,11 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     navigate({ to: "/auth", search: { mode: "signin" as const }, replace: true });
   }
 
-  const nav = [
+  const nav: Array<{ to: "/app" | "/tickets" | "/members"; label: string; icon: typeof Inbox; exact?: boolean }> = [
     { to: "/app", label: "Dashboard", icon: LayoutDashboard, exact: true },
     { to: "/tickets", label: "Tickets", icon: Inbox },
     { to: "/members", label: "Team", icon: Users },
-  ] as const;
+  ];
 
   return (
     <div className="grid min-h-screen grid-cols-1 md:grid-cols-[240px_1fr]">
