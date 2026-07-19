@@ -27,20 +27,19 @@ function Onboarding() {
 
       const baseSlug = slugify(name);
       const slug = `${baseSlug}-${Math.random().toString(36).slice(2, 6)}`;
+      const orgId = crypto.randomUUID();
 
-      const { data: org, error: oerr } = await supabase
+      const { error: oerr } = await supabase
         .from("organizations")
-        .insert({ name, slug, created_by: user.id })
-        .select("id")
-        .single();
+        .insert({ id: orgId, name, slug, created_by: user.id });
       if (oerr) throw oerr;
 
       const { error: merr } = await supabase
         .from("memberships")
-        .insert({ org_id: org.id, user_id: user.id, role: "owner" });
+        .insert({ org_id: orgId, user_id: user.id, role: "owner" });
       if (merr) throw merr;
 
-      localStorage.setItem("supportdesk.currentOrgId", org.id);
+      localStorage.setItem("supportdesk.currentOrgId", orgId);
       toast.success("Workspace created");
       navigate({ to: "/app" });
     } catch (err) {
