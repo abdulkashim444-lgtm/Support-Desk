@@ -31,9 +31,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
     <div className="grid min-h-screen grid-cols-1 md:grid-cols-[240px_1fr]">
       <aside className="border-r border-sidebar-border bg-sidebar text-sidebar-foreground">
         <div className="flex h-16 items-center gap-2 border-b border-sidebar-border px-4">
-          <div className="grid h-8 w-8 place-items-center rounded-md bg-primary text-primary-foreground">
-            <Inbox className="h-4 w-4" />
-          </div>
+          <img src="/supportdesk-logo.png" alt="SupportDesk" className="h-8 w-8 rounded-md" width={32} height={32} />
           <span className="text-sm font-semibold">SupportDesk</span>
         </div>
 

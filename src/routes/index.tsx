@@ -12,9 +12,7 @@ function Landing() {
       <header className="border-b border-border/60">
         <div className="container-page flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <div className="grid h-8 w-8 place-items-center rounded-md bg-primary text-primary-foreground">
-              <Inbox className="h-4 w-4" />
-            </div>
+            <img src="/supportdesk-logo.png" alt="SupportDesk" className="h-8 w-8 rounded-md" width={32} height={32} />
             <span className="text-base font-semibold tracking-tight">SupportDesk</span>
           </Link>
           <nav className="hidden gap-8 text-sm text-muted-foreground md:flex">
