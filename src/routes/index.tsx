@@ -138,7 +138,7 @@ function Landing() {
       <footer className="border-t border-border py-8">
         <div className="container-page flex flex-col items-center justify-between gap-2 text-xs text-muted-foreground md:flex-row">
           <span>© {new Date().getFullYear()} SupportDesk</span>
-          <span>Built on Lovable Cloud</span>
+          <span>Built By Abdul Kasim</span>
         </div>
       </footer>
     </div>
