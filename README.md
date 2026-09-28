@@ -10,9 +10,6 @@ Inspired by Zendesk, Freshdesk, Jira Service Management, and ServiceNow, Support
 
 <img width="1818" height="927" alt="Image" src="https://github.com/user-attachments/assets/24134ac1-91b6-45dc-9782-fa9c0d16bf6f" />
 
-## Check out : 
-
-https://aksuportdesk.lovable.app/
 
 # ✨ Features
 
@@ -124,3 +121,7 @@ https://aksuportdesk.lovable.app/
 ## 🌟 Vision
 
 Support Desk redefines customer service by combining intelligent ticket management, workflow automation, real-time collaboration, and modern web technologies into a production-ready help desk platform. Built with enterprise-grade architecture, it empowers organizations to improve operational efficiency, deliver exceptional customer support, and scale service operations with confidence.
+
+## Check out : 
+
+  https://aksuportdesk.lovable.app/
