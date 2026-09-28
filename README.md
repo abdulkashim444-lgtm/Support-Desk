@@ -1,4 +1,4 @@
-# 🎧 Support Desk
+#  Support Desk
 
 ## 🧠 AI-Powered Customer Support, Ticket Management & Help Desk Platform
 
@@ -7,6 +7,7 @@ Support Desk is a next-generation customer support platform designed to streamli
 Inspired by Zendesk, Freshdesk, Jira Service Management, and ServiceNow, Support Desk provides a scalable help desk solution featuring ticket lifecycle management, customer communication, agent collaboration, performance analytics, and secure role-based access for modern support organizations.
 
 ---
+
 <img width="1818" height="927" alt="Image" src="https://github.com/user-attachments/assets/24134ac1-91b6-45dc-9782-fa9c0d16bf6f" />
 
 ## Check out : 
